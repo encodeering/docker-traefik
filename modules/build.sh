@@ -9,4 +9,4 @@ docker-pull "$REPOSITORY/alpine-$ARCH:3.7" "alpine:3.6"
 
 docker-build "$PROJECT/alpine"
 
-docker-verify traefik version
+docker-verify traefik version | dup | contains "v${VERSION}"
