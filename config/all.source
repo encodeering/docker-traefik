@@ -1,3 +1,3 @@
 SCM_SOURCE=https://github.com/containous/traefik-library-image.git
 SCM_TARGET=modules/$PROJECT
-SCM_COMMIT=a0b61256a1c3df401f43cf01b940f3a69fb77883
+SCM_COMMIT=7ce854f4c0450f71cd913a1a498016d656f7dc5b
