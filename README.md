@@ -6,8 +6,8 @@
 
 - https://hub.docker.com/r/encodeering/traefik-armhf/
 
-    ```docker pull encodeering/traefik-armhf:1.6-alpine```
+    ```docker pull encodeering/traefik-armhf:1.7-alpine```
 
 - https://hub.docker.com/r/encodeering/traefik-amd64/
 
-    ```docker pull encodeering/traefik-amd64:1.6-alpine```
+    ```docker pull encodeering/traefik-amd64:1.7-alpine```
