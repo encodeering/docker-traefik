@@ -1,0 +1,9 @@
+{
+    "concourse": {
+        "dind": "unstable"
+    },
+    "platforms": ["amd64", "armhf"],
+    "pipelines": [
+        { "project": "traefik", "base": "alpine", "version": "2.2", "variant": "" }
+    ]
+}
