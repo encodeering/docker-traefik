@@ -5,8 +5,8 @@ set -e
 import com.encodeering.ci.config
 import com.encodeering.ci.docker
 
-docker-pull "$REPOSITORY/alpine-$ARCH:3.11" "alpine:3.11"
+docker-pull "$REPOSITORY/alpine-$ARCH:3.20" "alpine:3.20"
 
-docker-build "$PROJECT/alpine"
+docker-build "$PROJECT/v$VERSION/alpine"
 
-docker-verify version | dup | matches "Version:[[:space:]]+${VERSION}"
+docker-verify version | dup | matches "Version:[[:space:]]+$VERSION"
